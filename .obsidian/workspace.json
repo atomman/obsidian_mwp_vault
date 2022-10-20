@@ -1,0 +1,167 @@
+{
+  "main": {
+    "id": "d22d331b8787a0c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "844c6d534f38ec0a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "38431516511ec893",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "95e372c3ea30c90d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cases/survey.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "10a654cbed0e9122",
+    "type": "split",
+    "children": [
+      {
+        "id": "d26c59c53795dbed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc6649a5113a2927",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d3e3018537b97219",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c2eaa1352f74f90f",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "456efe8fc0c71842",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e538ae0500ce59c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a99efedf153358e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c698308653ff3718",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "76171524287760b0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c5f9c645d2f62919",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "38431516511ec893",
+  "lastOpenFiles": [
+    "_logs/9_Latest notes.md",
+    "_logs/3_tasks.md",
+    "_logs/2_meetings.md",
+    "_logs/1_current.md",
+    "customers/AwsomeInc.md",
+    "cases/survey.md",
+    "cases/party planing.md",
+    "daily/2022/10/2022-10-18_1507.md",
+    "templates/person.md",
+    "README.md"
+  ]
+}
