@@ -1,5 +1,5 @@
 ## Usecase
-My MWP [Obsidian](www.obsidian.md) vault. Its intended use is in a setting of consultancy or similar with simple CRM functionality. The vault is configured to handle several cases relating to many different customers with many stakeholders. Dataview aggregates and show table views of atomic notes from the vault. 
+My MWP [Obsidian](www.obsidian.md) vault. Its intended use is in a setting of consultancy or similar with simple CRM functionality with simple CRM functionality. The vault is configured to handle several cases relating to many different customers with many stakeholders. Dataview aggregates and show table views of atomic notes from the vault. 
 A Kanban board is used to assist in management of the workflow
 
 #### Templates

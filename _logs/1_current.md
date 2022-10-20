@@ -9,8 +9,8 @@ sort file.name desc
 
 ## Finnished cases
 ```dataview  
-TABLE  titel, kunde, summary, status
-from "sager"
+TABLE  title, customer, summary, status
+from "cases"
 where contains(status, "✔")
 sort file.name desc
 ```
