@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cases/survey.md",
+                "file": "templates/kanban template.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "456efe8fc0c71842",
@@ -153,15 +153,15 @@
   },
   "active": "38431516511ec893",
   "lastOpenFiles": [
-    "_logs/9_Latest notes.md",
-    "_logs/3_tasks.md",
-    "_logs/2_meetings.md",
-    "_logs/1_current.md",
-    "customers/AwsomeInc.md",
+    "templates/kanban template.md",
     "cases/survey.md",
-    "cases/party planing.md",
-    "daily/2022/10/2022-10-18_1507.md",
+    "README.md",
+    "_logs/1_current.md",
+    "cases/-.md",
+    "_logs/0_MyKanban.md",
+    "templates/Quartely review.md",
     "templates/person.md",
-    "README.md"
+    "templates/meeting.md",
+    "templates/lab notes.md"
   ]
 }
