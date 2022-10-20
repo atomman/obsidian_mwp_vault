@@ -1,6 +1,6 @@
 # customer meetings
 ```dataview  
-TABLE titel, customer, summary
+TABLE title, customer, summary
 from "daily"
 where contains(type, "customer meeting")
 sort file.cday desc
@@ -18,7 +18,7 @@ sort file.name desc
 
 ## All meetings
 ```dataview  
-TABLE titel, type, summary
+TABLE title, type, summary
 from "daily"
 where regexmatch(".+meeting", type)
 sort file.cday desc
