@@ -1,22 +1,25 @@
 ---
 
 kanban-plugin: basic
+tags:
+  - TaskExclude
 
 ---
 
 ## Backlog
 
-- [ ] [[-]]
+- [ ] invoice [[AwsomeInc]] for the [[survey]]
+- [ ] invoice [[AwsomeInc]] for [[party planing]]
+- [ ] create proposal for [[survey]] to john
 
 
 ## On Hold
 
-- [ ] [[survey]]
 
 
 ## WIP
 
-- [ ] [[party planing]]
+- [ ] [[2022-10-18_1507]]
 
 
 ## Done

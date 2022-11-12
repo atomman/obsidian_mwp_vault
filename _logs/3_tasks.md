@@ -1,10 +1,14 @@
-```tasks
-not done
-path does not include MyKanBan
-```
+## By Case
 ```dataview
-TASK 
-FROM "daily"
+TASK
+FROM -#TaskExclude
 WHERE !completed and refnr
 GROUP BY refnr
+```
+## misc todos
+```dataview
+TASK
+FROM -#TaskExclude
+WHERE !completed and !refnr
+GROUP BY file.name
 ```
