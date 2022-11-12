@@ -17,7 +17,7 @@ A number of templates are cretated for each type of note. Each template is confi
 	- Include an inline tag `refnr::` referencing a case if the meeting pertains to a case
 4. person
 	- A person contains inline dataview tags: `customer` and `title` and `contact`. Also contain a dataview of all notes where the person is tages as stakeholder
-5. lab note
+5. case note
 	- A note placed in `daily` notes. It contains a `type::` inline dataview tag which is set to `lab book`. These are the atomic notes you make which pertains to the execution of a certain task
 2. daily note
 	- A simple note to which captures(`ctrl q`) from QuickAdd plugin are added. Also Dataview of other notes (`YYYY-MM-DD_HHmm.md`) created on the same day
@@ -26,8 +26,8 @@ A number of templates are cretated for each type of note. Each template is confi
 2. kanban template
 	- Depending on the card title an appropiate not will be made when creating notes from cards
 		- starting with "CASE" - creates a case notes
-		- starting with  "LAB" - creates a lab note
 		- starting with "MEETING" - creates a meeting note
+		- any other note is created as a case note
 
 ## Logs
 The logs display different views into the vault using dataview queries.
