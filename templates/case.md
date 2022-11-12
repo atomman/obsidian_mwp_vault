@@ -1,15 +1,21 @@
 ---
 case_url: 
 ---
- 
+<%* 
+ let title = tp.file.title 
+ if (title.startsWith("Untitled")) { 
+     title = await tp.system.prompt("Title"); 
+  } 
+  await tp.file.rename(title) 
+  await tp.file.move("cases/" + title)
+ -%> 
  
 title::
-summary::sell candy to [[Jane Doe]]
-customer::[[AwsomeInc]]
+summary::
+customer::
 lead::
-stakeholder::[[Jane Doe]]
-status:: 🟩
-
+stakeholder::
+status:: 
 
 > [!summary] Summary of notes
 > ```dataview  
