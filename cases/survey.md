@@ -7,20 +7,18 @@ customer::[[AwsomeInc]]
 lead::
 stakeholder::[[John Doe]]
 status:: 🟩
-## case notes
 
-```dataview  
-TABLE summary
+
+> [!summary] Summary of notes
+> ```dataview  
+TABLE type, summary
 from "daily"
 where contains(refnr, this.file.link)
 sort file.name desc
-```
 
 
-## TODOs
-
-```dataview
+>[!todo]
+>```dataview
 TASK
 FROM "daily"
 WHERE contains(refnr, this.file.link)
-```

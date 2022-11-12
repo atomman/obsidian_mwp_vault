@@ -48,10 +48,10 @@ from ""
 WHERE contains(type, "learning")
 SORT file.mtime DESC
 ```
-## latest labbook
+## latest case notes
 ```dataview  
 TABLE summary, dateformat(file.mtime, "MM.dd.yyyy - HH:mm") AS "Last modified"
 from "daily"
-WHERE contains(type, "labbook") AND (file.mtime) >= (this.file.ctime - dur(90 d))
+WHERE contains(type, "case_note") AND (file.mtime) >= (this.file.ctime - dur(90 d))
 SORT file.mtime DESC
 ```

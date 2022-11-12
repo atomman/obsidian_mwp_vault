@@ -1,3 +1,23 @@
 {
-  "new-note-template": "templates/kanban template.md"
+  "new-note-template": "templates/kanban template.md",
+  "metadata-keys": [
+    {
+      "metadataKey": "refnr",
+      "label": "",
+      "shouldHideLabel": false,
+      "containsMarkdown": false
+    },
+    {
+      "metadataKey": "titel",
+      "label": "",
+      "shouldHideLabel": false,
+      "containsMarkdown": false
+    },
+    {
+      "metadataKey": "summary",
+      "label": "",
+      "shouldHideLabel": false,
+      "containsMarkdown": false
+    }
+  ]
 }

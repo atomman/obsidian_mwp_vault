@@ -3,6 +3,6 @@ title:: CEO
 
 ## Stakeholder in
 ```dataview
-TABLE refnr, summary
+TABLE summary
 FROM [[]]
 ```

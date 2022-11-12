@@ -4,30 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "844c6d534f38ec0a",
+        "id": "efd87896dc0e0c70",
         "type": "tabs",
         "children": [
           {
-            "id": "38431516511ec893",
+            "id": "136581c7183649c5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "_logs/0_MyKanban.md"
               }
             }
           },
           {
-            "id": "95e372c3ea30c90d",
+            "id": "2d46fdff03d1f22e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_logs/3_tasks.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 265.5
   },
   "right": {
     "id": "456efe8fc0c71842",
@@ -93,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "_logs/3_tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "_logs/3_tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "_logs/3_tasks.md"
               }
             }
           }
@@ -144,20 +147,17 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "38431516511ec893",
+  "active": "2d46fdff03d1f22e",
   "lastOpenFiles": [
-    "templates/person.md",
-    "templates/meeting.md",
     "_logs/2_meetings.md",
-    "README.md",
-    "templates/kanban template.md",
-    "cases/survey.md",
     "_logs/1_current.md",
-    "cases/-.md",
-    "_logs/0_MyKanban.md",
-    "templates/Quartely review.md"
+    "templates/case.md",
+    "templates/case note.md",
+    "templates/meeting.md",
+    "templates/Quartely review.md",
+    "people/Jane Doe.md",
+    "people/John Doe.md",
+    "cases/party planing.md",
+    "templates/person.md"
   ]
 }
