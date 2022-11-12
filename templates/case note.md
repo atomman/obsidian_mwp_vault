@@ -1,33 +1,20 @@
----
-case_url: 
----
-<%* 
- let title = tp.file.title 
- if (title.startsWith("Untitled")) { 
-     title = await tp.system.prompt("Title"); 
-  } 
-  await tp.file.rename(title) 
-  await tp.file.move("cases/" + title)
- -%> 
- 
-title::
-summary::
-customer::
-lead::
-stakeholder::
-status:: 
-## case notes
+<%*
+   let refnr = (await tp.system.suggester((item) => item.basename, app.vault.getMarkdownFiles())).basename
+   const fooMeta = DataviewAPI.page(tp.file.find_tfile(refnr).path)
+   let new_titel = tp.file.creation_date("YYYY-MM-DD_HHmm")
+    tp.file.rename(new_titel)
+   await tp.file.move("daily notes/" + tp.date.now("YYYY") +  "/" + tp.date.now("MM") + "/" + new_titel)
+%>
+type:: case_note
+summary:: 
+case_titel::<% fooMeta.titel %>
+refnr:: [[<%refnr%>]]
 
-```dataview  
-TABLE summary
-from "daily"
-where contains(refnr, this.file.link)
-sort file.name desc
-```
-## TODOs
+### Methods
 
-```dataview
-TASK
-FROM "daily"
-WHERE contains(refnr, this.file.link)
-```
+### Notes
+
+
+
+
+
